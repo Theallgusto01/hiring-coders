@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Helvetica, sans-serif;
+    
+}
+body {
+    background-color: #354f52;
+    background-image: url(img/wallhaven-pkp1vp_1920x1080.png);
+   
+}
+.cabeçalho img {
+
+    
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+.cabeçalho {
+    margin: 30px;
+}
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 800px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    
+    
+    
+    
+}
+.desc {
+    display: flex;
+    font-size: 28px;
+    color: #cad2c5;
+    margin: 10px;
+    padding: 10px;
+    max-width: 1000px;
+    
+}
+h1 {
+    font-size: 38px;
+    color: #cad2c5;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #2f3e46;
+    justify-content: space-between;
+    
+    
+}
+.logo{
+    display: flex;
+    height: 100px;
+}
+a {
+    padding-right: 10px;
+    text-decoration: none;
+    color: #cad2c5;
+    font-size: 16px;
+    
+
+}
+aside {
+    margin: 10px;
+}
+aside ul{
+    display: flex;
+    flex-direction: row;
+}
+.form p {
+    font-size: 18px;
+    color: #cad2c5;
+    margin: 10px;
+
+}
+.form input{
+    width: 200px;
+    height: 25px;
+}
